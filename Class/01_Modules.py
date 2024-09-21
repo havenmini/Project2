@@ -6,8 +6,12 @@
 '''
 import math
 
-a = math.sqrt(100)
+# a = math.sqrt(100)
 
-print(a)
+# print(a)
 
-# माथिको कोडमा, math मोड्युललाई आयात गरिएको छ। यो मोड्युलमा धेरै गणितीय फङ्क्सनहरू हुन्छन्।
+# # माथिको कोडमा, math मोड्युललाई आयात गरिएको छ। यो मोड्युलमा धेरै गणितीय फङ्क्सनहरू हुन्छन्।
+
+numbers = range(1, 10)  # This creates a range of numbers from 1 to 4
+result = math.prod(numbers)
+print(result)  # Output: 24
